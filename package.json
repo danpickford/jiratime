@@ -1,0 +1,30 @@
+{
+  "name": "jiratime",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danpickford/jiratime.git"
+  },
+  "author": "Daniel Pickford",
+  "license": "ISC",
+  "bin": {
+    "jira": "./bin/jira.js"
+  },
+  "bugs": {
+    "url": "https://github.com/danpickford/jiratime/issues"
+  },
+  "homepage": "https://github.com/danpickford/jiratime#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "jiratimeCommands": {
+    "start": "Start or continue a jira task for today.",
+    "stop": "Stop timer, go for lunch, make a tea for Dan?",
+    "ls": "List all time records for today.",
+    "export": "Export all time to Jira."
+  }
+}
